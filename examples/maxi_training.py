@@ -13,7 +13,7 @@ model = Classifier(feature_model=ptnet)
 
 ## set modelnet40 = ModelNet40Data(train= True, download= True)
 # Dataset initialization
-modelnet40 = ModelNet40Data(train=True, num_points=1024)
+modelnet40 = ModelNet40Data(train=True,download=True, num_points=1024)
 
 ## trainset ^ 
 
